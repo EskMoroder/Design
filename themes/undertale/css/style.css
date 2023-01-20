@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(163, 157, 158);
+    background-color: rgb(0, 0, 0);
 }
 * {
     box-sizing: border-box;
@@ -61,7 +61,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: rgb(255, 255, 255);
 }
 
 .title p {
@@ -73,11 +73,11 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .footer a {
-    color: #222;
+    color: rgb(255, 255, 255);
 }
 
 .footer .social {
@@ -89,7 +89,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: rgb(255, 255, 255);
 }
 
 p, td, th, li, dd {
