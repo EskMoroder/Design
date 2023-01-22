@@ -1,0 +1,103 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press%20Start%202P');
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+div {
+    border: 1em;
+    border-color: $border-color;
+}
+
+img {
+    max-width: 40%;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding-left: 2em;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: rgb(255, 255, 255);
+}
+
+.title p {
+    font-style: italic;
+}

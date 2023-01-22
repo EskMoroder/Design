@@ -1,0 +1,53 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    margin: 0;
+    padding: 0;
+}
+
+$magic-number: 1.5em;
+$amazing-color: rgb(173, 216, 230);
+
+
+html,
+body {
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .child {
+        width: 80%;
+        padding: $magic-number;
+        margin: $magic-number / 2;
+        background-color: $amazing-color;
+    }
+
+    .child:first-child {
+        margin-top: 0;
+    }
+
+    .child:last-child {
+        margin-bottom: 0;
+    }
+}

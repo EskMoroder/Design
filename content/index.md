@@ -10,4 +10,4 @@ Hej, Anton heter jag och jag studerar ifrån Linköping, läser mitt femte år o
 På fritiden brukar jag kolla mycket film, spela spel, hänga med vänner och mycket annat.  
 Nedan följer en bild som tyvärr ej är på mig men på ett väldigt bra spel!
 
-![Inte en bild på mig, MEN en bild från ett väldigt bra spel!](image/me.png)
+![Inte en bild på mig, MEN en bild från ett väldigt bra spel!](assets/img/me.png)
